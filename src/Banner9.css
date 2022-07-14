@@ -1,0 +1,32 @@
+.slides{
+    overflow: hidden;
+    margin-top: 100px;
+    padding-bottom: 60px;
+}
+.carousel-control-prev-icon,.carousel-control-next-icon {
+    background-color: black;
+}
+.texts{
+    margin-top: 70px;
+    padding-top: 40px;
+    background-color: #f1f1e3;
+    height: 120px;
+}
+.texts h5{
+font-size: small;
+}
+img{
+    transition: all .3s ease;
+}
+.texts u{
+ font-weight: 500;
+ color: black;
+}
+img:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 450px) {
+    .slides{
+       display: none;
+    }
+  }

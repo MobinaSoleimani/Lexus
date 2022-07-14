@@ -1,0 +1,19 @@
+
+.main{
+    margin-top:55px ;
+    text-align: center;
+    width: 60%;
+    overflow: hidden;
+}
+.main img{
+    width: 70px;
+    height: 65px;
+}
+.main h3{
+    font-weight: 10;
+    padding-bottom: 20px;
+}
+.main p{
+    font-weight:bold;
+    font-size:10px;
+}

@@ -1,0 +1,145 @@
+*{
+    margin: auto;
+}
+.main{
+    overflow: hidden;
+    text-align: center;
+    margin-top: 30px;
+}
+img{
+    width: 90%;
+    height: 70%;
+    transition: all .3s ease;
+}
+.img{
+    width: 100%;
+    height: 100%;
+}
+.boxes2{
+    overflow: hidden;
+    position: relative;
+    padding-top: 3px;
+}
+.boxes1{
+    overflow: hidden;
+    position: relative;
+}
+p{
+    color: white;
+    font-weight: bold;
+}
+.boxes2 p{
+    position: absolute;
+    top: 65%; 
+    left: 28%;
+}
+.boxes2 .buttons{
+    position: absolute;
+    top: 77%; 
+    left: 32%;
+    z-index: 5;
+}
+.boxes1 p{
+    position: absolute;
+    top: 80%; 
+    left: 15%;
+}
+.boxes1 .buttons{
+    position: absolute;
+    top: 88%; 
+    left: 30%;
+    z-index: 5;
+}
+.main img:hover{
+    transform: scale(1.1);
+}
+@media (max-width: 573px) {
+    .boxes2 p{
+        position: absolute;
+        top: 160px;  
+        left: 145px;
+    }
+    .boxes2 .buttons{
+        position: absolute;
+        top: 190px;  
+        left: 180px;
+    }
+    .boxes1 p{
+        position: absolute;
+        top: 400px;  
+        left: 110px;
+    }
+    .boxes1 .buttons{
+        position: absolute;
+        bottom: 10px; 
+        left: 190px;
+    }
+}
+@media (max-width: 999px) {
+    .boxes2 p{
+        position: absolute;
+        top: 65%;  
+        left: 26%;
+        z-index: 5;
+    }
+    .boxes2 .buttons{
+        position: absolute;
+        top: 78%;  
+        left: 34%;
+        z-index: 5;
+        height: 40px;  
+    }
+    .boxes1 p{
+        position: absolute;
+        top: 80%;  
+        left: 20%;
+        z-index: 5;
+    }
+    .boxes1 .buttons{
+        position: absolute;
+        top: 87%; 
+        left: 38%;
+        z-index: 5;
+        height: 40px;  
+    }
+    .boxes1 img{
+        height: 400px;
+    }
+}
+@media (max-width: 1345px) {
+    .boxes2 p{
+        position: absolute;
+        top: 65%;  
+        left: 27%;
+        z-index: 5;
+    }
+    .buttons{
+        height: 40px;
+        width: 170px;
+        font-size: 14px;
+    }
+    .boxes1 p{
+        position: absolute;
+        top: 80%;  
+        left: 14%;
+        z-index: 5;
+    }
+    p{
+        font-weight: 400;
+    }
+}
+@media (max-width: 1230px) {
+    .boxes2 p{
+        position: absolute;
+        top: 65%;  
+        left: 24%;
+        z-index: 5;
+    }
+    .boxes1 p{
+        position: absolute;
+        top: 81%;  
+        left: 12%;
+        z-index: 5;
+    }
+}
+

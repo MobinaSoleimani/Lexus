@@ -1,0 +1,98 @@
+.main{
+    position: relative;
+    text-align: center;
+    overflow: hidden;
+}
+.details{
+    position: absolute;
+    top: 20px;
+    left: 390px;
+    color: white;
+}
+.video{
+    width: 100%;
+}
+.details p{
+    font-size: 45px;
+    font-weight: 100;
+    font-weight: 1px;
+}
+.details h3{
+    font-size: 20px;
+    padding-bottom: 370px;
+}
+button{
+    width:200px ;
+    height:45px ;
+}
+button:hover{
+    border:2px solid white;
+    color: white;
+    background-color: transparent;
+}
+@media (max-width: 1422px) {
+    .details h3{
+        padding-bottom: 280px;
+    }
+    .details{
+        position: absolute;
+        top: 20px;
+        left: 300px;
+    }
+}
+    @media (max-width: 1235px) {
+        .details h3{
+            padding-bottom: 240px;
+        }
+        .details{
+            position: absolute;
+            top: 20px;
+            left: 250px;
+        }
+  }
+  @media (max-width: 1133px) {
+    .details h3{
+        padding-bottom: 200px;
+    }
+    .details{
+        position: absolute;
+        top: 20px;
+        left: 180px;
+    }
+  }
+  @media (max-width: 1030px) {
+    .details h3{
+        font-size: 15px;
+        padding-bottom: 180px;
+    }
+    .details{
+        position: absolute;
+        top: 20px;
+        left: 217px;
+    }
+    .details p{
+        font-size: 30px;
+        font-weight: 1px;
+    }
+  }
+  @media (max-width: 886px) {
+    .details h3{
+        font-size: 10px;
+        padding-bottom: 140px;
+    }
+    .details{
+        position: absolute;
+        top: 20px;
+        left: 200px;
+    }
+    .details p{
+        font-size: 30px;
+        font-weight: 1px;
+    }
+  }
+  @media (max-width: 770px) {
+
+    .main{
+       display: none;
+    }
+  }
