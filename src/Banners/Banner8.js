@@ -1,9 +1,9 @@
 import React from 'react';
 import  "./Banner6.css";//6 & 8
-import img20 from "./images/img/img20.png";
-import img21 from "./images/img/img21.png";
-import img22 from "./images/img/img22.png";
-import img23 from "./images/img/img23.png";
+import img20 from "../images/img/img20.png";
+import img21 from "../images/img/img21.png";
+import img22 from "../images/img/img22.png";
+import img23 from "../images/img/img23.png";
 const Banner8 = () => {
     return (
             <div className='main'>

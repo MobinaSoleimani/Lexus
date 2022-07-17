@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from "./Banner1.module.css";
-import video from "./videos/first.mp4";
+import video from "../videos/first.mp4";
 const Banner1 = () => {
     return (
         <div className={styles.main}>

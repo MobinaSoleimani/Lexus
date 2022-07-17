@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './api/data.json'
+import data from '../api/data.json'
 import styles from "./Banner2.module.css";
 
 const Banner2 = () => {

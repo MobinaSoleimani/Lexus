@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './api/data.json'
+import data from '../api/data.json'
 import styles from "./Banner7.module.css";
 import 'bootstrap/dist/css/bootstrap.min.css';
 

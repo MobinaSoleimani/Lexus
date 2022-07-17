@@ -1,5 +1,5 @@
 import React from 'react';
-import data from './api/data.json'
+import data from '../api/data.json'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  "./Banner3.css";
 

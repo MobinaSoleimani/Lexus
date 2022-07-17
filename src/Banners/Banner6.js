@@ -1,10 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import  "./Banner6.css";
-import img13 from "./images/img/img13.jpg";
-import img14 from "./images/img/img14.png";
-import img15 from "./images/img/img15.jpg";
-import img16 from "./images/img/img16.png";
+import img13 from "../images/img/img13.jpg";
+import img14 from "../images/img/img14.png";
+import img15 from "../images/img/img15.jpg";
+import img16 from "../images/img/img16.png";
 
 const Banner6 = () => {
     return (

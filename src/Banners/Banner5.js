@@ -1,20 +1,20 @@
 import React,{useReducer} from 'react';
 import styles from "./Banner5.module.css";
-import video from "./videos/Homepage.mp4";
-import white from "./images/white.png";
-import iridium from "./images/iridium.png";
-import silver from "./images/silver.png";
-import gray from "./images/gray.png";
-import caviar from "./images/caviar.png";
-import red from "./images/red.png";
-import blue from "./images/blue.png";
-import whitecar from "./images/whitecar.png";
-import iridiumcar from "./images/iridiumcar.png";
-import silvercar from "./images/silvercar.png";
-import graycar from "./images/graycar.png";
-import caviarcar from "./images/caviarcar.png";
-import redcar from "./images/redcar.png";
-import bluecar from "./images/bluecar.png";
+import video from "../videos/Homepage.mp4";
+import white from "../images/white.png";
+import iridium from "../images/iridium.png";
+import silver from "../images/silver.png";
+import gray from "../images/gray.png";
+import caviar from "../images/caviar.png";
+import red from "../images/red.png";
+import blue from "../images/blue.png";
+import whitecar from "../images/whitecar.png";
+import iridiumcar from "../images/iridiumcar.png";
+import silvercar from "../images/silvercar.png";
+import graycar from "../images/graycar.png";
+import caviarcar from "../images/caviarcar.png";
+import redcar from "../images/redcar.png";
+import bluecar from "../images/bluecar.png";
 
 
 

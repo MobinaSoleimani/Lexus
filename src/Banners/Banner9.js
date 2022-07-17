@@ -1,10 +1,10 @@
 import React from 'react';
 import { Carousel } from "react-bootstrap";
 import  "./Banner9.css"; 
-import img24 from "./images/img/img24.png";
-import img25 from "./images/img/img25.png";
-import img26 from "./images/img/img26.jpg";
-import img27 from "./images/img/img27.jpg";
+import img24 from "../images/img/img24.png";
+import img25 from "../images/img/img25.png";
+import img26 from "../images/img/img26.jpg";
+import img27 from "../images/img/img27.jpg";
 
 const Banner9 = () => {
     return (

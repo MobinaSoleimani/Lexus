@@ -1,14 +1,14 @@
 import './App.css';
 import FormNavbar from './FormNavbar';
-import Banner1 from './Banner1';
-import Banner2 from './Banner2';
-import Banner3 from './Banner3';
-import Banner4 from './Banner4';
-import Banner5 from './Banner5';
-import Banner6 from './Banner6';
-import Banner7 from './Banner7';
-import Banner8 from './Banner8';
-import Banner9 from './Banner9';
+import Banner1 from './Banners/Banner1';
+import Banner2 from './Banners/Banner2';
+import Banner3 from './Banners/Banner3';
+import Banner4 from './Banners/Banner4';
+import Banner5 from './Banners/Banner5';
+import Banner6 from './Banners/Banner6';
+import Banner7 from './Banners/Banner7';
+import Banner8 from './Banners/Banner8';
+import Banner9 from './Banners/Banner9';
 import Footer from './Footer';
 
 function App() {
